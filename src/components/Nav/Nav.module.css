@@ -1,0 +1,23 @@
+.navContainer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.Link{
+    border: 1px solid brown;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: darkolivegreen;
+    box-shadow: 6px 6px 20px brown;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.Link:hover{
+    color: darkolivegreen;
+    background-color: aliceblue;
+    box-shadow: 6px -6px 20px darkolivegreen;
+}

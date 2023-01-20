@@ -1,0 +1,85 @@
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border: none;
+    width: fit-content;
+    border-radius: 10px;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.cardDiv:hover{
+    border: 2px solid brown;
+    box-shadow: 0 0 15px brown;
+    margin: 13px;
+}
+
+.cardImg{
+    border-radius: 50%;
+    box-shadow: 2px -6px 10px darkolivegreen;
+    width: 90%;
+}
+
+.name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkolivegreen;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding: 3px;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.name:hover{
+    color: aliceblue;
+    background-color: darkolivegreen;
+}
+
+.nameLink{
+    text-decoration: none;
+}
+.closeButton{
+    align-self: flex-end;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px  ;
+    background-color: red;
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.closeButton:hover{
+    box-shadow: 2px 6px 10px black;
+    border: 1px black solid;
+}
+
+.infoDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: fit-content;
+}
+
+.info{
+    color: gray;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.id{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+}
