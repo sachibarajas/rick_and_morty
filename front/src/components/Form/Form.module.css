@@ -1,0 +1,32 @@
+.formContainer{
+    border-radius: 10px;
+    border: 2px brown solid;
+    box-shadow: 10px -5px 5px brown;
+    margin-top: 50px;
+    width: 30vw;
+    height: 50vh;
+    padding-top: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+.Inputs{
+    height: 50px;
+}
+
+.Warning{
+    border: solid red 2px;
+    border-radius: 0.2em;
+}
+
+.danger{
+    font-size: 10px;
+    color: red;
+    margin-left: 10em;
+    font-weight: bold;
+}
+
+.Header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}

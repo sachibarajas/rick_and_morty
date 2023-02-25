@@ -1,8 +1,9 @@
 .detailDiv{
+    padding-top: 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
-    
 }
 
 .infoDiv{
@@ -10,6 +11,7 @@
     flex-direction: column;
     margin-left: 50px;
     justify-items: center;
+    
     width: 30%;
     
 }
@@ -30,6 +32,7 @@
 .detailImg{
     border: 1px solid brown;
     box-shadow: 5px -6px 10px brown;
+    height: 60vh;
 }
 
 .Info{
